@@ -81,16 +81,26 @@ Go语言成功案例：
 
 - Docker:基于lxc的一个虚拟打包工具，能够实现PAAS平台的组建。
 
+<<<<<<< HEAD
   到现在，[Docker](https://cloud.tencent.com/developer/article/1073534)几乎是Go再难找到也难以复制的一个成功案例。Docker项目在2014年9月份就拿到了C轮4000万美元融资，版本迭代速度超快，目前从GitHub看到已有78个版本，而它仅仅是再2013年初才正式开始的一个项目而已。目前，国内Docker技术推广也进行的如火如荼，比如 Docker中文社区，CSDN也建立了 Docker专区。
 
   Docker团队之所以喜欢用Go语言，主要是Go具有强大的标准库、全开发环境、跨平台构建的能力。 
 
+=======
+>>>>>>> dcd541903066842af27a97aa665adf5a9ce5bcac
 - Packer:用来生成不同平台的镜像文件，例如VM、vbox、AWS等，作者是vagrant的作者
 
 - Skynet: 分布式调度框架
 
 - Doozer：分布式同步工具, 类似ZooKeeper
 
+<<<<<<< HEAD
+=======
+到现在，[Docker](https://cloud.tencent.com/developer/article/1073534)几乎是Go再难找到也难以复制的一个成功案例。Docker项目在2014年9月份就拿到了C轮4000万美元融资，版本迭代速度超快，目前从GitHub看到已有78个版本，而它仅仅是再2013年初才正式开始的一个项目而已。目前，国内Docker技术推广也进行的如火如荼，比如 Docker中文社区，CSDN也建立了 Docker专区。
+
+Docker团队之所以喜欢用Go语言，主要是Go具有强大的标准库、全开发环境、跨平台构建的能力。 
+
+>>>>>>> dcd541903066842af27a97aa665adf5a9ce5bcac
 - Heka：mazila开源的日志处理系统
 
 - Cbfs: couchbase开源的分布式文件系统
@@ -113,13 +123,21 @@ Go语言成功案例：
 
 网络编程，这一块目前应用最广，包括Web应用、API应用、下载应用，而且Go内置的net/http 包基本上把我们平常用到的网络功能都实现了。
 
+<<<<<<< HEAD
 ###### Gin框架
+=======
+Gin
+>>>>>>> dcd541903066842af27a97aa665adf5a9ce5bcac
 
 Gin 是 Go语言写的一个 web 框架，它具有运行速度快，分组的路由器，良好的崩溃捕获和错误处理，非常好的支持中间件和 json。
 
 它是一个轻量级的 WEB 框架，支持 RestFull 风格 API，支持 GET，POST，PUT，PATCH，DELETE，OPTIONS 等 http 方法，支持文件上传，分组路由，Multipart/Urlencoded FORM，以及支持 JsonP，参数处理等等功能，这些都和 WEB 紧密相关，通过提供这些功能，使开发人员更方便地处理 WEB 业务。
 
+<<<<<<< HEAD
 ###### Gorm框架
+=======
+Gorm
+>>>>>>> dcd541903066842af27a97aa665adf5a9ce5bcac
 
 Gorm是go语言中操作mysql数据库的开发框架，该框架可以将程序中结构体的字段和mysql数据库键值对中的"键"绑定，让我们不必再专门编写sql语句操作数据库，可以操作结构体将数据存入数据库。gorm是Golang语言中一款性能极好的ORM库，对开发人员相对是比较友好的。
 
@@ -137,7 +155,11 @@ https://www.jianshu.com/p/2cbf3ed417ef
 
 - 网页前端部分： VUE框架的使用
 - 前端后端的连接：计算机网络知识、Gin编程
+<<<<<<< HEAD
 - 数据库后端：GO、Gorm 语言，构建数据库的知识。成员都学习过数据库原理课程
+=======
+- 数据库后端：GO、Gorm 语言，构建数据库的知识
+>>>>>>> dcd541903066842af27a97aa665adf5a9ce5bcac
 - 分析网站功能：统计学知识、分析评论用到自然语言处理
 - 给予用户推荐：简单的推荐系统
 - 写项目报告：UML
