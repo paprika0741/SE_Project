@@ -145,9 +145,21 @@
 
 #### 1.3 定义、简写和缩略语
 
-HTTP: 超文本传输协议（Hyper Text Transfer Protocol，HTTP）是一个简单的请求-响应协议，它通常运行在[TCP](https://baike.baidu.com/item/TCP/33012)之上。它指定了客户端可能发送给服务器什么样的消息以及得到什么样的响应。
+HTTP: 超文本传输协议（Hyper Text Transfer Protocol，HTTP）是一个简单的请求-响应协议，它通常运行在TCP之上。它指定了客户端可能发送给服务器什么样的消息以及得到什么样的响应。
 
-MYSQL：MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一
+MYSQL：MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
+
+UML：一种编制软蓝图的标准化语言，它的目标之一就是为开发团队提供标准通用的设计语言来开发和构建计算机应用。
+
+用例图：指由参与者、用例以及它们之间的关系构成的用于描述系统功能的静态视图。
+
+类图：常用的UML图，显示出类、接口以及它们之间的静态结构和关系；它用于描述系统的结构化设计。
+
+活动图：用于描述系统行为的模型视图，它可用来描述动作和动作导致对象状态改变的结果，而不用考虑引发状态改变的事件。
+
+状态图：描述一个实体基于事件反应的动态行为，显示了该实体如何根据当前所处的状态对不同的事件做出反应的。
+
+协作图：显示对象之间如何进行交互以执行特定用例或用例中特定部分的行为。
 
 #### 1.4 引用文件
 
@@ -161,7 +173,7 @@ MYSQL：MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方�
 
 ### 2 总体描述
 
-#### 2.1 产品描述 
+#### 2.1 产品描述
 
 ##### 2.1.1 用户界面
 
@@ -185,7 +197,9 @@ MYSQL：MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方�
 
 新建评论页面：显示评论输入框以及输入完成的确认建。对于输入的合法性返回提示信息。
 
+**活动图**：
 
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=MzkwOWViYWFjODU3NjJhOTQxMGY5ZTBlOTdmMTZiOTVfWEJ4alJ4Y1Z1M1pyb1BEbzZNRTBFaDI5TGZBSGhmRjVfVG9rZW46Ym94Y241eXRmZTd1alpVMWVBd3NsWklrSWVoXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
 
 ##### 2.1.2 硬件接口
 
@@ -224,6 +238,24 @@ HTTP、HTTPS应用层传输协议：前端通过请求接口路径来和后端�
 站点系统管理服务将提供管理员查看站点运行状态，维护并管理功能。
 
 后端事务管理将为站点管理员提供帐户管理，统计用户信息、个性化推荐服务。
+
+**客户用例图：**
+
+ 
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDg4OTliZjlkMWRjYjNkN2QzMDRiZDIyNTkxZDcyYzBfSWpYMUtZMkl2Tk5hQ2d0NWpvRkdkNlU5VG00QlN5WXVfVG9rZW46Ym94Y25QU0xyWWl2VWNBUHR0NTBPQlR5WlJmXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom: 33%;" />
+
+**管理员用例图：**
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=N2YyYTk4M2FlMzUxYTkzNWMyYTA4NmYwZWMyYjQ4ZWFfUVhmMWtYWWR5UWZtZlZiY1dreUJacHZIT3YzQTB2SVFfVG9rZW46Ym94Y25GVFY3Y3NtYWRWMFl4eDNQbDBNZk9nXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:33%;" />
+
+**类图：**
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=NDM3YTEyZWY4NmVhMTNkZDQyZjI2YjA0YThjYzVkYTVfbTFOOTVLelNpQVZpNzdXd1dBQ0pLRGpVb2huTXJUeXVfVG9rZW46Ym94Y25sdVZVdDI4dXQwbzU5U2tDRmlBODRuXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom: 80%;" />
+
+**状态图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=Nzk1ZmZiYWJjY2NjNjU1ODgyY2EwMGU2MzQ3YjI4MjBfdk5tYmZTNDczZXdhY0U2bzZIZkFyOUVvTW1iSVByZGtfVG9rZW46Ym94Y25ma0RGUUZjZDJrU25BMktKekhYQmxnXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:67%;" />
 
 #### 2.3 用户特点
 
@@ -281,6 +313,14 @@ HTTP、HTTPS应用层传输协议：前端通过请求接口路径来和后端�
 
 密码验证通过后，显示注册成功，并进入网站功能导览；服务器把用户的相关信息，存入服务器，密码信息需要用md5加密储存
 
+**时序图**:
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IxODYxOTA1Y2EwNjRiNGM3NzhmNjU3MjljNjAwZTFfWm02SG5UR2NVUHVJWGgwN24yTGtSdFZRZGlXaVR3aDdfVG9rZW46Ym94Y241UHVybDVnU1MwR1RrZnpEbFRrWmZmXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom: 67%;" />
+
+**协作图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=YjNiNTYxNzAzOTI2NGFlNTYwMGQ0MjE2NTg4OTk0NzNfbEpOamFjOUpqaU1vU3g0NVE3RWpQaDV6TzFSeG9KQjNfVG9rZW46Ym94Y25iTUFhY1phQllVSDdwWEUwejVDUjBnXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:67%;" />
+
 ##### 3.2.2 用户登陆
 
 登陆界面，显示登录选项，可以使用用户名登录、手机号登录、邮箱登录
@@ -297,6 +337,14 @@ HTTP、HTTPS应用层传输协议：前端通过请求接口路径来和后端�
 
 用户成功登录后，进入主界面
 
+**时序图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=Njk5NWQ0ZGY4NjlmNzBkOTU3NTY4OGU3MTg5NWE4NzdfaVFiOTdrZ084YXdoVmZkRWtqRWFhM3FTTEQzalRlcmdfVG9rZW46Ym94Y25oYURZWlh5VFc0ekg5SjVOVWdRQ2JCXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom: 80%;" />
+
+**协作图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2U4ZWJlMjY1ZWY4OTJkZDhlMjEzYjgwOGZmNDBjNjJfYXZ0WWdpR0NONXV6elpYUzltYXpGZGMwaG13M01QU2pfVG9rZW46Ym94Y242VU44QW0zSUI4NVhKOU0yUTFwMjdlXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom: 80%;" />
+
 ##### 3.2.3 用户修改个人资料
 
 在用户登录的情况下，用户可以点击“修改个人资料”，进入用户修改个人资料功能
@@ -306,6 +354,16 @@ HTTP、HTTPS应用层传输协议：前端通过请求接口路径来和后端�
 修改绑定手机号或者绑定邮箱的流程为：输入账号密码，输入新的手机号或者邮箱，验证（与注册的验证过程相同）
 
 对于个人喜好，用户可以随意编辑，当用户点击保存后，服务器中数据库的信息同步修改
+
+**时序图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU1NWNkNDA4N2Q4ZjBhZjVmMmZmNmJmYjBjOWFjYmJfSmxKUkRtdWFBS1pySXRGcHhwRFBMeWNDS1VSYWxWN1RfVG9rZW46Ym94Y25yQk5kMEpvTm95NzliQ2YxaVF2U0tjXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
+**协作图**：
+
+
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=NGViZmUxOGI1M2Y2ZjUxM2Q2NTJlMTdiYzE1MmM1ZmRfUldWYUJQemNVUHU0bDA4Vm11NGRDd21TMmlKdHphUEFfVG9rZW46Ym94Y25rZUg4bXpkZkNLNkU3TTJmVVBkdFZkXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
 
 ##### 3.2.4 用户修改密码或密保
 
@@ -325,15 +383,41 @@ HTTP、HTTPS应用层传输协议：前端通过请求接口路径来和后端�
 
 用户可以修改或者删除自己发表的表情包，可以点赞其他用户分享的表情包，并会在所有用户的界面中显示该条表情包的赞数
 
+**时序图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=OGRmNjY5Zjk1OTkyNDFiMTE0ZjU1YmIxYWZjNmIxMjVfam5qdHV0UkNLbGEyUGJicEFreWdoMmZvMXBzZm14YmRfVG9rZW46Ym94Y25kQ0YzaFd3dTMzaE9Yc29nMFlnMG9oXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
+**协作图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2ViMzUxYzMxYmQxYTA2NjJmYWZjNGFhMWY4ZTViZTNfRVJ3OGllb1Z5UEUza0xhM0hud2s2ODlHV0lFcnFodTVfVG9rZW46Ym94Y25sSmIzU0tXbWpCWGlCc1hLbzA3ZWliXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
 ##### 3.2.6 评论服务
 
 在用户的登录状态下，用户可以评论自己或者其他用户发表的表情包，评论的信息存入数据库中，并显示在其他用户的界面中，并且提醒该表情包的发布用户
 
 用户可以点赞或者取消点赞其他用户的评论，系统对其的处理与处理表情包的点赞一致
 
+**时序图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=MzdkZTQyNjliMjdkNDUyZjgwYzVlNTBiNTQ1YjEwYTFfQlRjN3VINGNzTlVIRlFFaFhZejVMRExaUElxVU5YeE1fVG9rZW46Ym94Y25jbmxpdEdQNjBMRlNzUVB4SHpXNHpoXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
+**协作图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=NDBkZDQ2M2FlZGU3Y2I2ZmEyMTFhYjJlYWYyM2YyZjNfRExvRmZtSWRFU1hnb2t6WG9WbHRjSThCbHNlV1RuUmxfVG9rZW46Ym94Y25qWVZBcTd1OUxyNWJ4NHpsbGlYZE5kXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
 ##### 3.2.7 收藏服务
 
 在用户登录的情况下，用户可以收藏或取消网站中所有的表情包，服务器数据库中会添加被用户收藏的表情包序号，并且根据用户收藏的表情包进行分析
+
+**时序图**：
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTM2ZjM3ZTE2MGU0MTY3YjFkZDExMGE3ZTNmYmUzMTRfc3RweDE5a2JmQU1TRXdIam9abXhCcEhXS0NrMnYwMjhfVG9rZW46Ym94Y256TkpObHRobjJ0Zk5wSmo2U0l1MWdjXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
+
+**协作图**：
+
+
+
+<img src="https://gawy8intpj.feishu.cn/space/api/box/stream/download/asynccode/?code=OWYwZTBhNmNiNjhhOGFhYjk3MWZlMmNlNDM1NWJiYTBfV1Naa0NaR2JaTWxTS0l4WG5tYkJBdWhLN21KUVI3aVhfVG9rZW46Ym94Y25ZRWp3ckpOS1RpcFRvNDhYVkRlS2ZLXzE2NTAwMTE0MDQ6MTY1MDAxNTAwNF9WNA" alt="img" style="zoom:80%;" />
 
 ##### 3.2.8 站点系统管理服务
 
@@ -461,7 +545,7 @@ user_id : 用户的id
 
 comment_id :  评论的id
 
-![img](https://pig-1307013046.cos.ap-nanjing.myqcloud.com/PigCo/asynccode)
+<img src="https://pig-1307013046.cos.ap-nanjing.myqcloud.com/PigCo/asynccode" alt="img" style="zoom: 67%;" />
 
 ##### 3.4.2 不同功能使用的信息类型
 
